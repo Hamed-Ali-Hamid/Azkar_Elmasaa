@@ -9,66 +9,22 @@ body {
     padding: 0;
   }
   
-/* الحاوية */
-.container {
-    text-align: center; /* محاذاة النصوص في المنتصف */
-    width: 100%;
-    max-width: 900px;
-    padding: 11.2px;
-    border-radius: 15px;
-    text-align: center;
-}
-
-/* رأس الصفحة */
-header {
+  /* تنسيق الرأس */
+  header {
     background-color: #2b2997;
-    color: white; /* لون النص */
-    padding: 10px 0; /* مسافة داخلية */
-    margin-bottom: 20px; /* مسافة أسفل الرأس */
-    position: relative; /* يسمح بوضع العناصر بشكل مطلق داخله */
-}
-
-/* تنسيق اللوجو */
-.logo-container {
-    position: absolute; /* وضع الشعار بشكل مستقل داخل الحاوية */
-    top: 10px; /* المسافة من أعلى الحاوية */
-    right: 20px; /* المسافة من يمين الحاوية */
-}
-
-.logo-image {
-    height: 90px; /* حجم الشعار */
-    width: auto; /* الحفاظ على النسبة بين الطول والعرض */
-}
-
-/* تنسيق العنوان */
-h1 {
-    font-size: 24px; /* حجم النص */
-    margin: 0; /* إزالة المسافات الافتراضية */
-    font-size: 2em;
-    margin: 0;
-}
-
-/* تنسيق القائمة */
-nav ul {
-    list-style: none; /* إزالة النقاط */
-    margin: 10px 0 0 0; /* مسافة بين النصوص */
-    padding: 0;
-}
-
-nav a {
-    color: white; /* لون النص */
-    text-decoration: none; /* إزالة التسطير */
-    font-weight: bold; /* جعل النص عريض */
-}
-
-nav a:hover {
-    text-decoration: underline; /* تسطير عند التمرير */
-}
-
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
   
   header .container {
     width: 80%;
     margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin: 0;
   }
   
   /* تنسيق القائمة */
